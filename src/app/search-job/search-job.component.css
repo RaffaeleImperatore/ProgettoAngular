@@ -1,0 +1,86 @@
+#hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://media.gcflearnfree.org/content/55e07819bae0135431cfdcc2_12_17_2013/findajobonline_intro.png')
+   no-repeat center;
+  background-size:cover;
+  color: #ffffff;
+  padding: 5px 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.inner {
+  position: relative;
+}
+
+.title {
+  color: white;
+  margin-top: 20px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.search-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.search-full-width {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: black !important;
+ }
+
+ ::ng-deep .mat-form-field-underline {
+  /*change color of underline*/
+  background-color: purple !important;
+}
+
+::ng-deep .mat-form-field-ripple {
+ /*change color of underline when focused*/
+ background-color: green !important;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: wheat !important;
+  color: black !important;
+}
+
+.submit-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.submit-button-row .mat-button-base {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  margin-top: 8px;
+}
+
+.mat-stroked-button {
+  background-color: white;
+}
+
+.example-card {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+

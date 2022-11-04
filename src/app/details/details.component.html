@@ -1,0 +1,7 @@
+<section>
+  <h1><b>{{this.detailsJob.name}}</b></h1>
+  <span style="color: gray;">{{this.detailsJob.publication_date | date}}</span>
+  <h3><a [routerLink]="['/company-details', this.detailsJob.company.id]"><b>{{this.detailsJob.company.name}}</b> | {{this.detailsJob.levels[0].name}}</a></h3>
+  <h4>{{this.detailsJob.locations[0].name}}</h4>
+  <p [innerHTML]="this.detailsJob.contents"></p>
+</section>
