@@ -12,7 +12,7 @@ Ho deployato l'app su Firebase: https://jobsearch-ccb6c.web.app/
 
 ## Angular Material
 
-Ho utilizzato Angular Material per alcuni elementi dell'HTML. 'ng add @angular/material' per installare ciò che serve.
+Ho utilizzato Angular Material per alcuni elementi dell'HTML. `ng add @angular/material` per installare ciò che serve.
 
 ## Development server
 
